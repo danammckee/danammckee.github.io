@@ -2,5 +2,22 @@ body {
 	font-family: Veranda, Arial, Helventica, sans-serif;
 }
 
+h1 {
+  text-align: center;
+  font-size: 100px;
+  background-color: #98FB98;
 
+p {
+  font-size: 50px;
+  text-align: center;
+}
 
+h2 {
+  text-align: center;
+  font-size: 30px;
+  background-color: LightGray;
+}
+
+p{
+  font-size: 20px;
+}
