@@ -29,9 +29,12 @@ p {
   font-size: 17px;
 }
 
-footer {
+bottom {
 	text-align: center;
-	font-size: 10;
+	font-size: 13px;
 	font-weight: italic;
+}
+
+footer {
 	background-color: LightGreen;
 }
