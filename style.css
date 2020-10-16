@@ -24,7 +24,7 @@ nav a {
   text-decoration: none;
 }
 
-.column1of4, column2of4, column3of4, column4of4 {
+column1of4, column2of4, column3of4, column4of4 {
 width: 25%;
 float: left;
 margin: 10px;
