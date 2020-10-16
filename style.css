@@ -55,3 +55,8 @@ p {
   font-size: 17px;
 }
 
+footer {
+	text-align: center;
+	font-size: 10;
+	font-weight: italic;
+}
