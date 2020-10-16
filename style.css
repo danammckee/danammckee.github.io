@@ -2,7 +2,7 @@ body {
 	font-family: Veranda, Arial, Helventica, sans-serif;
 }
 
-.column1of3, .column2of3, .column3of3 {
+.column1of4, .column2of4, .column3of4, . column4of4 {
 width: 300px;
 float: left;
 margin: 10px;
