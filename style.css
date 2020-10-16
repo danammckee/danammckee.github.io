@@ -8,6 +8,30 @@ header {
   padding: 5px;
 }
 
+nav {
+  overflow: hidden;
+  background-color: #333;
+} 
+
+li a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 h1 {
   text-align: center;
   font-size: 75px;
