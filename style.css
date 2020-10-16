@@ -29,6 +29,13 @@ p {
   font-size: 17px;
 }
 
+top {
+	font-size:17px;
+	text-align: center;
+	font-weight: italic;
+	
+}
+
 bottom {
 	text-align: center;
 	font-size: 13px;
