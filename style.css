@@ -22,6 +22,11 @@ nav a {
   text-align: center;
   padding: 3px;
   text-decoration: none;
+	
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
 
 /* Links - change color on hover */
 nav a:hover {
