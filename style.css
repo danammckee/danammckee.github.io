@@ -2,6 +2,12 @@ body {
 	font-family: Veranda, Arial, Helventica, sans-serif;
 }
 
+.header {
+  background-color: #98FB98;
+  text-align: center;
+  padding: 20px;
+}
+
 <!-- .column1of4, .column2of4, .column3of4, . column4of4 {
 width: 300px;
 float: left;
@@ -11,7 +17,6 @@ margin: 10px;
 h1 {
   text-align: center;
   font-size: 100px;
-  background-color: #98FB98;
 }
 
 p {
@@ -37,4 +42,10 @@ h3 {
 	
 p {
   font-size: 20px;
+}
+
+.footer {
+  background-color: #98FB98;
+  text-align: center;
+  padding: 10px;
 }
