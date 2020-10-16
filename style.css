@@ -2,13 +2,13 @@ body {
 	font-family: Veranda, Arial, Helventica, sans-serif;
 }
 
-.header {
+header {
   background-color: LightGreen;
   text-align: center;
   padding: 20px;
 }
 
-.column1of4, .column2of4, .column3of4, . column4of4 {
+column1of4, .column2of4, .column3of4, . column4of4 {
 width: 25%;
 float: left;
 margin: 10px;
