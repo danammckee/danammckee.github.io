@@ -25,7 +25,7 @@ p {
 }
 
 h2 {
-  text-align: left;
+  text-align: center;
   font-size: 30px;
   background-color: LightGray;
 }
@@ -35,7 +35,7 @@ p {
 }
 
 h3 {
-  text-align: left;
+  text-align: center;
   font-size: 30px;
   background-color: LightGray;
 }
