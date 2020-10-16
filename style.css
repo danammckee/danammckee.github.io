@@ -5,7 +5,7 @@ body {
 .header {
   background-color: LightGreen;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 /* The navbar container */
@@ -20,6 +20,8 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 column1of4 {
