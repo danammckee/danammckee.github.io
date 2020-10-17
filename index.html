@@ -1,19 +1,25 @@
+<!-- Top information from https://www.w3schools.com/html/default.asp  -->
 <!DOCTYPE html>
 <!-- When validating, needed to include lang="en" as is was indicated that it is written in enlgish -->
 <html lang="en">
 <head>
 <title>GEOM 65 Assignment 2 Personal Webpage</title>
+<!-- Linking CSS style sheet in order to apply CSS style to this page -->
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Wanted a classic header for the page -->
+<!-- Creating a header for the page along with a sub-header of who Dinosaur D. Things is
+Reference: https://www.w3schools.com/tags/tag_header.asp-->
+<!-- <div> tag used throughout HTML document for CSS styling
+https://www.w3schools.com/tags/tag_div.ASP#:~:text=The%20tag%20defines%20a,inside%20the%20tag! -->
 <div class="header">
   <h1>Dinosaur D. Things</h1>
   <p class = "top">Just a dinosaur doing things</p>
 </div>
 
-<!-- -->
+<!-- First of three requirements, nav bar.  Wanted a horizontal navigation bar to bring user to the other pages of the site
+-->
 <!-- https://www.w3schools.com/css/css_navbar.asp -->
 <nav>
 	<ul>
@@ -23,19 +29,22 @@
 	</ul>
 </nav> 
 
-<!-- -->
-<!-- -->
+<!-- Headers and content of the website included below.  Top header and paragraph and bottom header and paragraph in the own
+parts of the site with the middle three parapgras (2-4) to be made into side by side columns-->
+<!-- Top article, middle article (to have columns), and bottom article https://www.w3schools.com/tags/tag_article.asp -->
 <!-- Planning on including a photo to the left and a blockquote to the left for this section 
 https://www.w3schools.com/tags/tag_blockquote.asp -->
-<h2> Who am  I? </h2>
-<p> Well, I am Dinosaur D. Things, nice to meet you. I am a dinosaur and I like doing things. 
+<article> 
+	<h2> Who am  I? </h2>
+	<p> Well, I am Dinosaur D. Things, nice to meet you. I am a dinosaur and I like doing things. 
 With sharpened teeth ready to try the next tasty treat, strangely large hybrid arms (thanks Mum) 
 eqipped to reach the top shelf for the best souvenirs, and 
 laces tied ready to climb the next mountain, I'm set out to each day to see what I can 
 go and do. I am always asked, "What make a Tyrannasaurus rex want to go do things?", and I say back
 "There's cool stuff to do out there, why not?" </p>
+</article>
 
-<!-- -->
+<!--middle three parapgras (2-4) to be made into side by side columns -->
 <!--https://www.w3schools.com/howto/howto_css_two_columns.asp -->
 <article class="row">
   <div class="column1"><h2>Adventures</h2>
@@ -54,16 +63,16 @@ world and continue to try to do things there as well. Bring back Pangaea.</div><
 
 <!-- Wanted the same format as the h2 above the columns so kept it in the same h2 tag for CSS styling -->
 <!-- -->
-<h2> Further Details </h2>
-<p> Check out my Photo Album page which is filled with my top favourite things I've done
+<article><h2> Further Details </h2>
+	<p> Check out my Photo Album page which is filled with my top favourite things I've done
 and a couple of my favourite Locations you should visit and go do some things at. 
-Remember friends, get out there and do some things. 
-</p>
+Remember friends, get out there and do some things. </p>
+</article>
 
-<!-- -->
-<!-- -->
+<!-- Footer created with reference to website that helped make this happen and updated year https://www.w3schools.com/tags/tag_footer.asp -->
 <div class="footer">
-  <p>2020 Dinosaur D. Things</p>
+  <p>2020 Dinosaur D. Things.  Website built with reference to w3schools</p>
+<a href="mailto:hege@example.com">hege@example.com</a>
 </div>
 
 </body>
