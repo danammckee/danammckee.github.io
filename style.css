@@ -33,14 +33,14 @@ li a {
   display: block;
   color: Black;
   text-align: center;
-  font-style: bold;
+  font-weight: bold;
   padding: 8px;
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
-  font-type: Veranda;
+  font-family: Veranda, Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -89,7 +89,7 @@ h3 {
   float: left;
   width: 33.33%;
   padding: 10px;
-  background-colour:White;
+  background-color:Khaki;
 }
 .column3 {
   float: left;
