@@ -110,11 +110,11 @@ h3 {
 /* Style the footer */
 .footer {
   background-color: LightGreen;
-  padding: 2px;
+  padding: 1px;
   text-align: left;
-  font-size: 10px;
+  font-size: 5px;
   font-style: italic;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 img {
