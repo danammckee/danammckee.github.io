@@ -115,6 +115,12 @@ p {
   font-style: italic;
 }
 
+<!-- Ensure the images are responsive! https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_responsive -->
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .column {
