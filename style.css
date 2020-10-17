@@ -115,10 +115,15 @@ p {
   font-style: italic;
 }
 
-<!-- Ensure the images are responsive! https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_responsive -->
+<!-- Ensure the images are responsive, put border around images. https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_responsive -->
 img {
   max-width: 100%;
   height: auto;
+  border: 1px solid #LightGreen;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
