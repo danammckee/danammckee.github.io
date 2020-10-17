@@ -33,7 +33,6 @@ li a {
   display: block;
   color: Black;
   text-align: center;
-  font-weight: bold;
   padding: 8px;
   text-decoration: none;
 }
@@ -41,6 +40,7 @@ li a {
 ul {
   list-style-type: none;
   font-family: Veranda, Arial, Helvetica, sans-serif;
+font-weight: bold;
   padding: 0;
   margin: 0;
 }
