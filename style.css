@@ -1,16 +1,11 @@
-<!-- Box created around outside of the entire webpage https://www.w3schools.com/css/css_border.asp -->
 * {
   box-sizing: border-box;
 }
 
-<!-- font for the entire content unless otherwise specified with a different class and CSS style indicated below
-https://www.w3schools.com/cssref/pr_font_font-family.asp -->
 body {
   font-family: Veranda, Arial, Helvetica, sans-serif;
 }
 
-<!-- Header styling.  Wanted a large green header with the name of the dinosaur, large italic font in the centre of the page
-https://www.w3schools.com/howto/howto_css_style_header.asp -->
 .header {
   background-color: LightGreen;
   padding: 5px;
@@ -19,8 +14,6 @@ https://www.w3schools.com/howto/howto_css_style_header.asp -->
   font-style: italic;
 }
 
-<!-- Wanted the sub-title to be differenciated from the main header so created a sub class for the header p, top.  It
-has a gray background and is a smaller font -->
 .top {
   text-align: center;
   font-size: 20px;
@@ -36,7 +29,6 @@ nav {
   border: 3px solid #686868;
 } 
 
-<!-- Link text to the left, small padding around it -->
 li a {
   float: left;
   display: block;
@@ -46,7 +38,6 @@ li a {
   text-decoration: none;
 }
 
-<!-- nav bar link text styling, bold -->
 ul {
   list-style-type: none;
   font-family: Veranda, Arial, Helvetica, sans-serif;
@@ -55,14 +46,11 @@ ul {
   margin: 0;
 }
 
-<!-- This allows the colour to change to the Lime Green colour as the user is hovering on ofn of the nav bar links -->
 li a:hover {
   background-color: LimeGreen;
   color: black;
 }
 
-<!-- All headings with h2 tag will be centre aligned, larger font that paragraph text, small padding around it, 
-and a light gray background -->
 h2 {
   text-align: center;
   font-size: 30px;
@@ -70,13 +58,10 @@ h2 {
   background-color: LightGray;
 }
 
-<!-- All text with p tag will be 17px font size, all p fonts will have font text style applied to it -->
 p {
   font-size: 17px;
 }
 
-<!-- All h3 tags on HTML will be the same as h2 but have a Light Green background for styling purposes. Found on 
-Photo Album page -->
 h3 {
   text-align: center;
   font-size: 30px;
@@ -84,15 +69,12 @@ h3 {
   background-color: LightGreen;
 }
 
-<!-- class for images paragraph text has center aligned CSS styling to be above centre aligned photos -->
+
 .imgtext {
   font-size: 17px;
   text-align: center;
 }
 
-<!--
-Reference: https://www.w3schools.com/css/css3_multiple_columns.asp, 
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns -->
 <!-- So that the float is not there before the columns -->
 .row:before {
   content: "";
@@ -100,8 +82,6 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns -->
   clear: both;
 }
 
-<!-- all columns float beside each other and will span the entire page equally by being broken down into width of 33.33% each,
-alternating Pale Green and Honeydew colouring, and a small padding of 10px for clean styling within each column -->
 .column1 {
   float: left;
   width: 33.33%;
@@ -121,17 +101,12 @@ alternating Pale Green and Honeydew colouring, and a small padding of 10px for c
   background-color:PaleGreen;
 }
 
-<!-- So that the float is gone after the columns -->
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-<!-- Footer styling here.  Same green is used to emulate the colour theme from the header and columns and entire page,
-margin at the top so that there is space from the last article on the pages and the footer, italic font for differenciation,
-text aligned to the left to be about of the way, and a small font size again to have it there, but not be overpowering -->
-/* Style the footer */
 .footer {
   background-color: LightGreen;
   padding: 1px;
@@ -141,15 +116,12 @@ text aligned to the left to be about of the way, and a small font size again to 
   margin-top: 10px;
 }
 
-<!-- img CCS styling for words above photos on Photo Album page -->
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-<!-- The layour of the columns on the website should be responsive and stack and you change the size of the page
-instead of be side by side for the layout of this page -->
 @media (max-width: 600px) {
   .column {
     width: 100%;
