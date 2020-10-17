@@ -70,8 +70,9 @@ h3 {
   background-color: LightGreen;
 }
 	
-p {
+.imgtext {
   font-size: 17px;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
