@@ -80,15 +80,26 @@ p {
   font-size: 17px;
 }
 
-/* All h3 tags on HTML will be the same as h2 but have a Light Green background for styling purposes. Found on 
+/* All h3 tags on HTML will be the same as h2 but have a Light Green background and not span the entire page for styling purposes. Found on 
 Photo Album page */
 h3 {
   text-align: center;
   font-size: 30px;
   padding: 5px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
   background-color: LightGreen;
+}
+
+/* All h4 tags on HTML will be the same as h2 but not span the entire page for styling purposes. Found on 
+Photo Album page */
+h4 {
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: LightGrey;
 }
 
 /* class for images paragraph text has center aligned CSS styling to be above centre aligned photos */
