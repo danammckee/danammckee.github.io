@@ -63,10 +63,7 @@ li a:hover {
 
 .toparticle img {
   float: left;
-  margin-left: 5px;
-  margin-right: 10px;
-  margin-top: 5px;
-  margin-right: 5px;
+  margin:5px;
 }  
   
 /* All headings with h2 tag will be centre aligned, larger font that paragraph text, small padding around it, 
@@ -89,7 +86,6 @@ h3 {
   text-align: center;
   font-size: 30px;
   padding: 5px;
-  width: 50%;
   background-color: LightGreen;
 }
 
